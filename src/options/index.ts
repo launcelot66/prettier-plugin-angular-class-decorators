@@ -23,7 +23,7 @@ const NG_CLASS_DECORATORS_REMOVE_EMPTY_ARRAYS_PROPERTIES_OPTION: BooleanSupportO
 };
 
 /**
- * All supported options by `@prettier/plugin-angular-class-decorators-properties`.
+ * All supported options by `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export const options: SupportOptions = {
   NgModulePropertiesOrder: NG_CLASS_DECORATORS_SORT_PROPERTIES_OPTION,

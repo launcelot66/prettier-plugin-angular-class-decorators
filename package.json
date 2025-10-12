@@ -1,5 +1,5 @@
 {
-  "name": "@prettier/plugin-angular-class-decorators-properties",
+  "name": "plugin-angular-class-decorators-properties",
   "version": "1.0.0",
   "description": "A simple plugin for Prettier that allows you to automatically sort and modify Angular classes decorators parameters.",
   "repository": {

@@ -13,7 +13,7 @@ export interface NgClassDecoratorsOrderOptions<T = any> extends ParserOptions<T>
 }
 
 /**
- * Identifier object for `@prettier/plugin-angular-class-decorators-properties`.
+ * Identifier object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type Identifier = {
   type: 'Identifier';
@@ -23,7 +23,7 @@ export type Identifier = {
 };
 
 /**
- * Property object for `@prettier/plugin-angular-class-decorators-properties`.
+ * Property object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type Property = {
   type: 'Property';
@@ -35,7 +35,7 @@ export type Property = {
 };
 
 /**
- * ObjectExpression object for `@prettier/plugin-angular-class-decorators-properties`.
+ * ObjectExpression object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type ObjectExpression = {
   type: string;
@@ -43,7 +43,7 @@ export type ObjectExpression = {
 };
 
 /**
- * CallExpression object for `@prettier/plugin-angular-class-decorators-properties`.
+ * CallExpression object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type CallExpression = {
   type: string;
@@ -55,7 +55,7 @@ export type CallExpression = {
 };
 
 /**
- * Decorator object for `@prettier/plugin-angular-class-decorators-properties`.
+ * Decorator object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type Decorator = {
   type: 'Decorator';
@@ -63,7 +63,7 @@ export type Decorator = {
 };
 
 /**
- * ProgramStatement object for `@prettier/plugin-angular-class-decorators-properties`.
+ * ProgramStatement object for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export type ProgramStatement = {
   type: string;

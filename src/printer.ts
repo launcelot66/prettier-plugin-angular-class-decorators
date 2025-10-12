@@ -3,7 +3,7 @@ import type { AST } from '@typescript-eslint/typescript-estree';
 import type { Decorator, ObjectExpression, ProgramStatement, Property } from './options/types';
 
 /**
- * Options for `@prettier/plugin-angular-class-decorators-properties`.
+ * Options for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export interface NgClassDecoratorsOrderPrinterOptions extends ParserOptions {
   readonly NgModulePropertiesOrder: string[];
@@ -15,7 +15,7 @@ export interface NgClassDecoratorsOrderPrinterOptions extends ParserOptions {
 }
 
 /**
- * NgClassDecoratorsOrderPrinter for `@prettier/plugin-angular-class-decorators-properties`.
+ * NgClassDecoratorsOrderPrinter for `launcelot66/plugin-angular-class-decorators-properties`.
  */
 export class NgClassDecoratorsOrderPrinter {
   private readonly content: AST<{ range: true; loc: true; comment: true }>;
