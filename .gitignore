@@ -1,0 +1,16 @@
+.idea
+node_modules/
+package-lock.json
+yarn.lock
+
+# build
+dist
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage directory used by tools like istanbul
+coverage

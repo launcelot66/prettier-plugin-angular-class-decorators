@@ -1,0 +1,77 @@
+{
+  "name": "@prettier/plugin-angular-class-decorators-properties",
+  "version": "1.0.0",
+  "description": "A simple plugin for Prettier that allows you to automatically sort and modify Angular classes decorators parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/launcelot66/prettier-plugin-angular-class-decorators"
+  },
+  "bugs": {
+    "url": "https://github.com/launcelot66/prettier-plugin-angular-class-decorators/issues"
+  },
+  "scripts": {
+    "build:clean": "git clean -fdx dist",
+    "build:code": "tsup-node",
+    "build": "run-s build:clean build:code",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache --cache-strategy content .",
+    "ts-check": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run clean && npm install && npm run build",
+    "preflight": "npm install && run-s format lint build test ts-check"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nikita Sereda",
+    "email": "launcelot66@yandex.ru",
+    "url": "https://github.com/launcelot66"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "src",
+    "tsconfig.build.json",
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "8.46.0"
+  },
+  "devDependencies": {
+    "@angular/core": "18.2.14",
+    "@eslint/compat": "1.4.0",
+    "@eslint/js": "9.37.0",
+    "@stylistic/eslint-plugin": "5.4.0",
+    "@types/node": "24.7.1",
+    "@vitest/coverage-v8": "3.2.4",
+    "@vitest/eslint-plugin": "1.3.16",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-jsdoc": "61.1.0",
+    "eslint-plugin-prettier": "5.5.4",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "jiti": "2.6.1",
+    "npm-run-all2": "8.0.4",
+    "prettier": "3.6.2",
+    "tsup": "8.5.0",
+    "typescript": "5.4.5",
+    "typescript-eslint": "8.41.0",
+    "vitest": "3.2.4"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "packageManager": "npm@10.0.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
