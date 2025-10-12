@@ -10,6 +10,7 @@
     "url": "https://github.com/launcelot66/prettier-plugin-angular-class-decorators/issues"
   },
   "scripts": {
+    "clean": "git clean -fdx",
     "build:clean": "git clean -fdx dist",
     "build:code": "tsup-node",
     "build": "run-s build:clean build:code",
