@@ -1,6 +1,6 @@
 {
   "name": "plugin-angular-class-decorators-properties",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple plugin for Prettier that allows you to automatically sort and modify Angular classes decorators parameters.",
   "repository": {
     "type": "git",
@@ -22,6 +22,13 @@
     "prepublishOnly": "npm run clean && npm install && npm run build",
     "preflight": "npm install && run-s format lint build test ts-check"
   },
+  "keywords": [
+    "prettier-plugin",
+    "prettier",
+    "formatter",
+    "typescript",
+    "angular"
+  ],
   "license": "MIT",
   "author": {
     "name": "Nikita Sereda",

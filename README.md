@@ -1,14 +1,15 @@
 <p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://prettier.io" target="_blank">
     <img alt="Prettier" src="https://cdn.rawgit.com/prettier/prettier-logo/master/images/prettier-icon-light.svg">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://pugjs.org" target="_blank">
-    <img alt="Pug" src="https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg" height="210">
+  <a href="https://angular.dev" target="_blank">
+    <img alt="Angular" src="https://lh3.google.com/u/0/d/1S7QzMK5MggtQAnKnptrZN1JJNnDpQ8eK=w1919-h1003-iv1?auditContext=prefetch" width="210" height="210">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://angular.dev" target="_blank">
+    <img alt="Angular" src="https://lh3.google.com/u/0/d/1S7QzMK5MggtQAnKnptrZN1JJNnDpQ8eK=w1919-h1003-iv1?auditContext=prefetch" width="210" height="210">
+  </a>
 </p>
 
 <h2 align="center">Prettier plugin for manipulate Angular Class Decorators Properties</h2>
@@ -67,11 +68,11 @@ pnpm add --save-dev prettier plugin-angular-class-decorators-properties
 ### CLI
 
 ```bash
-npx prettier --write "**/*.pug" --plugin="plugin-angular-class-decorators-properties"
+npx prettier --write "**/*.ts" --plugin="plugin-angular-class-decorators-properties"
 # or
-yarn prettier --write "**/*.pug" --plugin="plugin-angular-class-decorators-properties"
+yarn prettier --write "**/*.ts" --plugin="plugin-angular-class-decorators-properties"
 # or
-pnpm prettier --write "**/*.pug" --plugin="plugin-angular-class-decorators-properties"
+pnpm prettier --write "**/*.ts" --plugin="plugin-angular-class-decorators-properties"
 ```
 
 ### Configuration file (.prettierrc)
