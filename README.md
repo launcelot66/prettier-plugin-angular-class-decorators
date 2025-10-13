@@ -6,10 +6,6 @@
   <a href="https://angular.dev" target="_blank">
     <img alt="Angular" src="https://lh3.google.com/u/0/d/1S7QzMK5MggtQAnKnptrZN1JJNnDpQ8eK=w1919-h1003-iv1?auditContext=prefetch" width="210" height="210">
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://angular.dev" target="_blank">
-    <img alt="Angular" src="https://lh3.google.com/u/0/d/1S7QzMK5MggtQAnKnptrZN1JJNnDpQ8eK=w1919-h1003-iv1?auditContext=prefetch" width="210" height="210">
-  </a>
 </p>
 
 <h2 align="center">Prettier plugin for manipulate Angular Class Decorators Properties</h2>
@@ -28,9 +24,9 @@
   <a href="https://prettier.io" target="_blank">
     <img alt="Code Style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
-  <a href="https://github.com/launcelot66/plugin-angular-class-decorators/actions/workflows/ci.yml">
+  <!--<a href="https://github.com/launcelot66/plugin-angular-class-decorators/actions/workflows/ci.yml">
     <img alt="Build Status" src="https://github.com/launcelot66/plugin-angular-class-decorators/actions/workflows/ci.yml/badge.svg?branch=main">
-  </a>
+  </a>-->
 </p>
 
 # Intro
