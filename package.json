@@ -1,6 +1,6 @@
 {
   "name": "plugin-angular-class-decorators-properties",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple plugin for Prettier that allows you to automatically sort and modify Angular classes decorators parameters.",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "scripts": {
     "clean": "git clean -fdx",
     "build:clean": "git clean -fdx dist",
-    "build:code": "tsup-node",
+    "build:code": "tsc --pretty",
     "build": "run-s build:clean build:code",
     "format": "prettier --cache --write .",
     "lint": "eslint --cache --cache-strategy content .",
@@ -35,21 +35,11 @@
     "email": "launcelot66@yandex.ru",
     "url": "https://github.com/launcelot66"
   },
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    },
-    "./package.json": "./package.json"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "type": "commonjs",
+  "main": "dist/index",
+  "types": "dist/index",
   "files": [
-    "dist",
-    "src",
-    "tsconfig.build.json",
-    "tsconfig.json"
+    "dist"
   ],
   "dependencies": {
     "@typescript-eslint/typescript-estree": "8.46.0"

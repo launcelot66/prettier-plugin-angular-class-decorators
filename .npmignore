@@ -1,2 +1,11 @@
 .idea/
-test_files/
+.vscode/
+
+coverage/
+node_modules/
+src/
+tests/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
