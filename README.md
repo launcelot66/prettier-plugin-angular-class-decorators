@@ -40,11 +40,6 @@ This plugin adds support for the Angular class decorators properties (like NgMod
 - [Getting started](#getting-started)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Workarounds / Known Issues](#workarounds--known-issues)
-- [Integration with editors](#integration-with-editors)
-- [Implementation details](#implementation-details)
-- [Contributing](#contributing)
-- [Credits](#credits)
 
 ## Getting started
 
@@ -72,6 +67,15 @@ pnpm prettier --write "**/*.ts" --plugin="plugin-angular-class-decorators-proper
 ```
 
 ### Configuration file (.prettierrc)
+
+| Name                                    | Type       | Default | Description                                                                                                                              |
+|-----------------------------------------|------------|---------|------------------------------------------------------------------------------------------------------------------------------------------|
+| `NgModulePropertiesOrder`               | `string[]` | `[]`    | A list of `@NgModule` properties in the correct order. All properties outside the list will be sorted in the same order as they were.    |
+| `ComponentPropertiesOrder`              | `string[]` | `[]`    | A list of `@Component` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
+| `InjectablePropertiesOrder`             | `string[]` | `[]`    | A list of `@Injectable` properties in the correct order. All properties outside the list will be sorted in the same order as they were.  |
+| `DirectivePropertiesOrder`              | `string[]` | `[]`    | A list of `@Directive` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
+| `PipePropertiesOrder`                   | `string[]` | `[]`    | A list of `@Pipe` properties in the correct order. All properties outside the list will be sorted in the same order as they were.        |
+| `RemoveNgDecoratorEmptyArrayProperties` | `boolean`  | `false` | If set to `true` will remove properties from decorator object where value is empty array.                                                |
 
 ```json
 {

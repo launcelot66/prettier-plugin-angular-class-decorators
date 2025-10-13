@@ -10,14 +10,14 @@ import { convergeOptions } from './options/converge';
 export const plugin: Plugin<AST<{ range: true; loc: true; comment: true }>> = {
   languages: [
     {
-      name: 'Typescript',
-      parsers: ['typescript'],
+      name: 'NgCDP',
+      parsers: ['ngcdp'],
       extensions: ['.ts'],
     },
   ],
   /* eslint-disable jsdoc/require-jsdoc */
   parsers: {
-    typescript: {
+    ngcdp: {
       ...prettierParsers.typescript,
       parse(text, options): AST<{ range: true; loc: true; comment: true }> {
         const content: AST<{ range: true; loc: true; comment: true }> = parse(text, { range: true, loc: true, comment: true });

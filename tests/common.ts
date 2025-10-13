@@ -24,7 +24,7 @@ export interface CompareFilesOptions {
    *
    * You can also override the `parser` and `plugins` key.
    *
-   * @default { parser: 'pug', plugins: [plugin] }
+   * @default { parser: 'ngcdp', plugins: [plugin] }
    */
   formatOptions?: Options;
 }
@@ -67,7 +67,7 @@ export async function compareFiles(
   const expected: string | null = target ? readFileSync(resolve(dirname, target), 'utf8') : null;
   const code: string = readFileSync(resolve(dirname, source), 'utf8');
   const actual: string = await format(code, {
-    parser: 'typescript',
+    parser: 'ngcdp',
     plugins: [plugin],
     ...formatOptions,
   });

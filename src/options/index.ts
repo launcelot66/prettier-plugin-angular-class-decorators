@@ -1,7 +1,7 @@
 import type { BooleanSupportOption, PathArraySupportOption, SupportOptions } from 'prettier';
 
 const ngClassDecoratorsSortPropertiesOption: PathArraySupportOption = {
-  category: 'Ng',
+  category: 'NgCDP',
   type: 'path',
   array: true,
   default: [{ value: [] }],
@@ -16,7 +16,7 @@ const NG_CLASS_DECORATORS_SORT_PROPERTIES_OPTION: PathArraySupportOption = {
 
 /** Pug default div tag. */
 const NG_CLASS_DECORATORS_REMOVE_EMPTY_ARRAYS_PROPERTIES_OPTION: BooleanSupportOption = {
-  category: 'Ng',
+  category: 'NgCDP',
   type: 'boolean',
   default: false,
   description: 'Remove empty array properties from decorators objects (lie imports, providers or exports)',
