@@ -4,7 +4,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://angular.dev" target="_blank">
-    <img alt="Angular" src="https://lh3.google.com/u/0/d/1S7QzMK5MggtQAnKnptrZN1JJNnDpQ8eK=w1919-h1003-iv1?auditContext=prefetch" width="210" height="210">
+    <img alt="Angular" src="https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif" width="210" height="210">
   </a>
 </p>
 
@@ -12,6 +12,12 @@
 
 
 <p align="center">
+  <a href="https://github.com/launcelot66/prettier-plugin-angular-class-decorators/actions/workflows/build.yml/badge.svg">
+    <img alt="Build Status" src="https://github.com/launcelot66/temp2/actions/workflows/build.yml/badge.svg">
+  </a>
+  <a href="https://gist.githubusercontent.com/launcelot66/d5b942001bb4c3c9e0dc4c31943a8dca/raw/plugin-angular-class-decorators-properties-heads-main.json">
+    <img alt="Coverage: 100%" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/launcelot66/raw/e43e03d301b7f42103cd9a14855b04e995a9def9/plugin-angular-class-decorators-properties-heads-main.json">
+  </a>
   <a href="https://github.com/launcelot66/prettier-plugin-angular-class-decorators/blob/main/LICENSE">
     <img alt="license: MIT" src="https://img.shields.io/github/license/launcelot66/prettier-plugin-angular-class-decorators.svg?style=flat-square">
   </a>
@@ -24,9 +30,6 @@
   <a href="https://prettier.io" target="_blank">
     <img alt="Code Style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
-  <!--<a href="https://github.com/launcelot66/plugin-angular-class-decorators/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://github.com/launcelot66/plugin-angular-class-decorators/actions/workflows/ci.yml/badge.svg?branch=main">
-  </a>-->
 </p>
 
 # Intro
@@ -68,14 +71,15 @@ pnpm prettier --write "**/*.ts" --plugin="plugin-angular-class-decorators-proper
 
 ### Configuration file (.prettierrc)
 
-| Name                                    | Type       | Default | Description                                                                                                                              |
-|-----------------------------------------|------------|---------|------------------------------------------------------------------------------------------------------------------------------------------|
-| `NgModulePropertiesOrder`               | `string[]` | `[]`    | A list of `@NgModule` properties in the correct order. All properties outside the list will be sorted in the same order as they were.    |
-| `ComponentPropertiesOrder`              | `string[]` | `[]`    | A list of `@Component` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
-| `InjectablePropertiesOrder`             | `string[]` | `[]`    | A list of `@Injectable` properties in the correct order. All properties outside the list will be sorted in the same order as they were.  |
-| `DirectivePropertiesOrder`              | `string[]` | `[]`    | A list of `@Directive` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
-| `PipePropertiesOrder`                   | `string[]` | `[]`    | A list of `@Pipe` properties in the correct order. All properties outside the list will be sorted in the same order as they were.        |
-| `RemoveNgDecoratorEmptyArrayProperties` | `boolean`  | `false` | If set to `true` will remove properties from decorator object where value is empty array.                                                |
+| Name                                                                       | Description                                                                                                                              |
+|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| `NgModulePropertiesOrder`<br/>Type:`string[]` Default:`[]`                 | A list of `@NgModule` properties in the correct order. All properties outside the list will be sorted in the same order as they were.    |
+| `ComponentPropertiesOrder`<br/>Type:`string[]` Default:`[]`                | A list of `@Component` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
+| `InjectablePropertiesOrder`<br/>Type:`string[]` Default:`[]`               | A list of `@Injectable` properties in the correct order. All properties outside the list will be sorted in the same order as they were.  |
+| `DirectivePropertiesOrder`<br/>Type:`string[]` Default:`[]`                | A list of `@Directive` properties in the correct order. All properties outside the list will be sorted in the same order as they were.   |
+| `PipePropertiesOrder`<br/>Type:`string[]` Default:`[]`                     | A list of `@Pipe` properties in the correct order. All properties outside the list will be sorted in the same order as they were.        |
+| `RemoveNgDecoratorEmptyArrayProperties`<br/>Type:`boolean` Default:`false` | If set to `true` will remove properties from decorator object where value is empty array.                                                |
+
 
 ```json
 {
