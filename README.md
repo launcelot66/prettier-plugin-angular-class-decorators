@@ -1,11 +1,7 @@
 <p align="center">
-  <a href="https://prettier.io" target="_blank">
-    <img alt="Prettier" src="https://cdn.rawgit.com/prettier/prettier-logo/master/images/prettier-icon-light.svg">
-  </a>
+  <a href="https://prettier.io" target="_blank"><img alt="Prettier" src="https://cdn.rawgit.com/prettier/prettier-logo/master/images/prettier-icon-light.svg" width="210" height="210"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://angular.dev" target="_blank">
-    <img alt="Angular" src="https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif" width="210" height="210">
-  </a>
+  <a href="https://angular.dev" target="_blank"><img alt="Angular" src="https://repository-images.githubusercontent.com/49016322/0a1e8bee-99b1-4044-9b83-4bdb6befcde9" width="210" height="210"></a>
 </p>
 
 <h2 align="center">Prettier plugin for manipulate Angular Class Decorators Properties</h2>
@@ -13,10 +9,10 @@
 
 <p align="center">
   <a href="https://github.com/launcelot66/prettier-plugin-angular-class-decorators/actions/workflows/build.yml/badge.svg">
-    <img alt="Build Status" src="https://github.com/launcelot66/temp2/actions/workflows/build.yml/badge.svg">
+    <img alt="Build Status" src="https://github.com/launcelot66/prettier-plugin-angular-class-decorators/actions/workflows/build.yml/badge.svg">
   </a>
   <a href="https://gist.githubusercontent.com/launcelot66/d5b942001bb4c3c9e0dc4c31943a8dca/raw/plugin-angular-class-decorators-properties-heads-main.json">
-    <img alt="Coverage: 100%" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/launcelot66/raw/e43e03d301b7f42103cd9a14855b04e995a9def9/plugin-angular-class-decorators-properties-heads-main.json">
+    <img alt="Coverage: 100%" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/launcelot66/d5b942001bb4c3c9e0dc4c31943a8dca/raw/plugin-angular-class-decorators-properties-heads-main.json">
   </a>
   <a href="https://github.com/launcelot66/prettier-plugin-angular-class-decorators/blob/main/LICENSE">
     <img alt="license: MIT" src="https://img.shields.io/github/license/launcelot66/prettier-plugin-angular-class-decorators.svg?style=flat-square">
